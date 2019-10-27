@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:lts
+FROM jenkins/jenkins:lts-jdk11
 
 # Plugins for better UX (not mandatory)
 RUN /usr/local/bin/install-plugins.sh ansicolor
